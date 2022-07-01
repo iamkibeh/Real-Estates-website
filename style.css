@@ -32,7 +32,8 @@ body{
 
 .navbar h2{
   flex: 1;
-  color:#00d4ff
+  color:#00d4ff;
+  font-family: "Oleo Script", sans-serif;
 }
 .navbar ul{
   flex: 2;
@@ -95,7 +96,7 @@ border-radius: 5x;
 /* Styling About section */
 
 .home{
-  background-color: grey;
+  /* background-color: grey; */
   margin: 50px 20px;
   display: flex; 
 }
@@ -106,30 +107,64 @@ img{
 }
 .img1{
 flex:1;
-background-color: red;
+/* background-color: red; */
 
 }
 .home-content{
   flex:1;
-  background-color: #00d4ff;
+  /* background-color: #00d4ff; */
   margin: 20px;
   
 }
 
 .home-content h3{
-  background-color: green;
+  /* background-color: green; */
   font-size: 30px;
   font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 10px;
 }
 
 .home-content p{
-  background-color: orange;
+  /* background-color: orange; */
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom:20px ;
 }
 .home-content button{
-  background-color: brown
+  border-radius: 5px;
+  padding: 10px;
+  background-color: blue;
+}
+.home-content button a{
+  color: whitesmoke;
+  font-size: 20px;
 }
 
+.home-content button:hover{
+  background-color: rgb(119, 25, 182);
+}
 .about{
-  background-color: yellow;
-  margin:20px 20px
+  background-color: rgba(234, 242, 243, 0.959);
+  margin:80px;
+  height: 100px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.about ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+
+}
+
+.about ul li{
+  list-style-type: none;
+
+}
+.about ul li button{
+  padding:8px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px;
+  background-color: blue;
 }
