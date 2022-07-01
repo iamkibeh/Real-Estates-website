@@ -168,3 +168,38 @@ flex:1;
   box-shadow: 2px 2px 4px;
   background-color: blue;
 }
+
+/* procedures styling section */
+
+.products .work{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.products h2{
+  margin: 10px 40px;
+}
+.procedures{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  
+  
+}
+.procedures .location{
+
+background-color: rgba(234, 242, 243, 0.959);
+margin: 15px;
+padding: 5px;
+display: grid;
+grid-template-rows: 80px 100px;
+grid-gap: 30px;
+align-items: center;
+
+
+}
+.procedures .location img{
+  /* margin: 30px; */
+  margin-right: auto;
+  margin-left: auto;
+}
