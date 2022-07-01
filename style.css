@@ -9,6 +9,8 @@ body{
   font-family: 'Space Grotesk','Oleo Script' sans-serif;
   
 }
+
+/* Styling Navigation bar section */
 .nav{
   /* background-color: green; */
   height: 70px;
@@ -45,10 +47,19 @@ body{
 .navbar ul li {
   list-style: none;
   padding: 8px 10px;
- 
+
 } 
 .navbar ul li a{
   font-size: 20px;
+  padding: 10px 15px;
+  display: flex;
+  
+}
+.navbar ul li a:hover{
+  background-color: gray;
+}
+.navbar ul li a.active{
+  background-color: green;
 }
 
 .btn-div{
@@ -69,3 +80,56 @@ border-radius: 5x;
   transform: scale(1.5);
 }
 
+@media only screen and (max-width: 800px){
+.navbar ul{
+  display: flex;
+  flex-direction: column;
+
+}
+.nav{
+  height: fit-content;
+}
+
+}
+
+/* Styling About section */
+
+.home{
+  background-color: grey;
+  margin: 50px 20px;
+  display: flex; 
+}
+img{
+  max-width: 100%;
+  display: block;
+  max-height: 100%;
+}
+.img1{
+flex:1;
+background-color: red;
+
+}
+.home-content{
+  flex:1;
+  background-color: #00d4ff;
+  margin: 20px;
+  
+}
+
+.home-content h3{
+  background-color: green;
+  font-size: 30px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.home-content p{
+  background-color: orange;
+}
+.home-content button{
+  background-color: brown
+}
+
+.about{
+  background-color: yellow;
+  margin:20px 20px
+}
