@@ -318,3 +318,53 @@ background-color: white;
 .properties .images .cost .amount{
   background-color: red;
 } */
+
+/* Clients thoughts */
+
+.clients{
+  background-color: green;
+  margin: 30px;
+  width: fit-content;
+}
+.clients .about-clients{
+  background-color: rebeccapurple;
+  text-align: center;
+  padding: 8px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.clients .about-clients h2{
+  margin-bottom: 5px;
+}
+.clients .members{
+  /* background-color: aqua; */
+  margin: 5px;
+  display: flex;
+}
+.clients .members .member-one{
+  margin: 10px;
+  flex: 1;
+  background-color:white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.clients .members .member-one h5{
+  padding:5px 0;
+}
+
+.view-more{
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-end;
+  margin:10px ;
+}
+.view-more button{
+  width: 100px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 10px;
+
+}
+.view-more button:hover{
+  transform: scale(1.2);
+}
