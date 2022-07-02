@@ -322,12 +322,12 @@ background-color: white;
 /* Clients thoughts */
 
 .clients{
-  background-color: green;
+  /* background-color: green; */
   margin: 30px;
   width: fit-content;
 }
 .clients .about-clients{
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
   text-align: center;
   padding: 8px;
   font-family: 'Space Grotesk', sans-serif;
