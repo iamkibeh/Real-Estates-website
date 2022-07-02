@@ -368,3 +368,49 @@ background-color: white;
 .view-more button:hover{
   transform: scale(1.2);
 }
+
+/* Footer Section */
+
+.footer{
+  background-color: blue;
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+.footer .vision{
+  margin: 20px;
+  background-color: red;
+flex:1;
+
+}
+.footer .vision h2{
+font-family: "Oleo Script", sans-serif;
+}
+
+.footer .more{
+  margin: 20px;
+  background-color: green;
+flex:1;
+display: flex;
+justify-content: center;
+}
+.footer .navigation{
+  margin: 20px;
+  background-color: yellow;
+flex:1;
+display: flex;
+justify-content: center;
+}
+.footer ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  /* background-color: black; */
+}
+.footer ul li a{
+  color: whitesmoke;
+}
+
+.home-page{
+  font-size:30px;
+  font-family: 'Space Grotesk', sans-serif;
+}
