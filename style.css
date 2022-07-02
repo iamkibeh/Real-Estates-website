@@ -6,6 +6,7 @@
 
 body{
   background-color:  #FAFAFA;
+  background-color: #a8a8a81e;
   font-family: 'Space Grotesk','Oleo Script' sans-serif;
   
 }
@@ -253,3 +254,67 @@ padding: 10px;
   margin: 5px;
   
 }
+
+
+/* Properties */
+
+.properties{
+  /* background-color: green; */
+  margin: 40px;
+}
+
+ 
+.properties .about-prop{
+  text-align: center;
+  /* background-color: yellow; */
+  width: 60%;
+  height: 80px;
+  margin-top: 80px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+ .properties .about-prop h3{
+  font-family: 'Space Grotesk', sans-serif;
+  color: blue;
+  /* background-color: brown; */
+  font-size:25px ;
+  margin-bottom: 10px;
+} 
+.properties .about-prop p{
+  padding: 5px;
+}
+
+.properties .images{
+  display: flex;
+  justify-content: space-between;
+}
+
+.properties .images .image4{
+  background-color: white;
+  margin: 12px;
+  border-radius: 5px;
+}
+
+.properties .images .image3{
+  margin: 12px;
+background-color: white;
+}
+.properties .images .image5{
+  background-color: white;
+  margin: 12px;
+  border-radius: 5px;
+}
+.properties .images .cost{
+  margin-top: 10px;
+  padding: 6px;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+}
+/* .properties .images .cost .loc{
+  background-color: black;
+}
+.properties .images .cost .amount{
+  background-color: red;
+} */
