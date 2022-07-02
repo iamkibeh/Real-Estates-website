@@ -372,14 +372,16 @@ background-color: white;
 /* Footer Section */
 
 .footer{
-  background-color: blue;
+  background-color: rgba(1, 1, 136, 0.897);
   width: 100%;
   height: 250px;
   display: flex;
+  color: whitesmoke;
 }
 .footer .vision{
   margin: 20px;
-  background-color: red;
+  padding: 0 20px;
+  /* background-color: red; */
 flex:1;
 
 }
@@ -389,14 +391,14 @@ font-family: "Oleo Script", sans-serif;
 
 .footer .more{
   margin: 20px;
-  background-color: green;
+  /* background-color: green; */
 flex:1;
 display: flex;
 justify-content: center;
 }
 .footer .navigation{
   margin: 20px;
-  background-color: yellow;
+  /* background-color: yellow; */
 flex:1;
 display: flex;
 justify-content: center;
@@ -413,4 +415,5 @@ justify-content: center;
 .home-page{
   font-size:30px;
   font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
 }
