@@ -82,11 +82,17 @@ border-radius: 5x;
   transform: scale(1.5);
 }
 
+.menu-btn{
+  /* background-color: green; */
+  width: 80px;
+  height: 40px;
+  position:absolute;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 800px){
 .navbar ul{
-  display: flex;
-  flex-direction: column;
-
+  display: none;
 }
 .nav{
   height: fit-content;
@@ -94,6 +100,11 @@ border-radius: 5x;
 
 }
 
+@media (min-width:800px){
+  .menu-btn{
+    margin-top: -800px;
+  }  
+}
 /* Styling About section */
 
 .home{
