@@ -8,7 +8,7 @@ body{
   background-color:  #FAFAFA;
   background-color: #a8a8a81e;
   font-family: 'Space Grotesk','Oleo Script' sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* Styling Navigation bar section */
@@ -90,13 +90,21 @@ border-radius: 5x;
   cursor: pointer;
 }
 
-@media only screen and (max-width: 800px){
-.navbar ul{
+@media  screen and (max-width: 800px){
+.navbar ul li:not(:first-child){
   display: none;
+  
 }
 .nav{
   height: fit-content;
 }
+.menu-btn{
+  position: absolute;
+  right: 139px;
+  top: 60px;
+}
+
+
 
 }
 
@@ -311,10 +319,16 @@ padding: 10px;
   justify-content: space-between;
 }
 
-.properties .images .image4{
+.pics{
   background-color: white;
-  margin: 12px;
-  border-radius: 5px;
+margin: 12px;
+border-radius: 8px;
+}
+.pics:hover{
+transform: scale(1.1);
+}
+/* .properties .images .image4{
+
 }
 
 .properties .images .image3{
@@ -325,7 +339,7 @@ background-color: white;
   background-color: white;
   margin: 12px;
   border-radius: 5px;
-}
+} */
 .properties .images .cost{
   margin-top: 10px;
   padding: 6px;
