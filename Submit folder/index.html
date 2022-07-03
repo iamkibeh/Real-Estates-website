@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Space+Grotesk:wght@300&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="style.css">
     <title>Mishra Real Estates</title>
   </head>
-  <body>
+  <body background="vallie estate/image 2.png">
     <div class="intro">
+      
       <h2>Mishra Real Estates</h2>
       <p>
         Thankyou for choosing us.<br />
@@ -18,21 +24,22 @@
       </p>
     </div>
     <div class="submit">
-      <form action="submit">
+      <form action="http://127.0.0.1:5500/index.html">
         <!-- First name -->
         <label for="first-Name">First Name</label>
         <input
           id="firstname"
           placeholder="first name"
+          name="firstname"
           type="text"
           required
         /><br />
         <!-- Middle name -->
         <label for="middle-Name">Middle Name</label>
-        <input id="middlename" placeholder="middle name" type="text" /><br />
+        <input id="middlename" name="middlename" placeholder="middle name" type="text" /><br />
         <!-- Surname -->
         <label for="surname">Surname</label>
-        <input id="surname" placeholder="surname" type="text" required/><br />
+        <input id="surname" name="surname" placeholder="surname" type="text" required/><br />
         <!-- Email -->
         <label for="E-Mail">Email</label>
         <input
@@ -50,8 +57,10 @@
         </select><br>
 
         <!-- submit button -->
-        <input type="submit">
+        <input type="submit" value="submit">
       </form>
     </div>
+
+   
   </body>
 </html>

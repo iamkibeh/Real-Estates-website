@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+
+.intro{
+  /* background-color: aqua; */
+  margin-bottom: 30px;
+  padding: 10px;
+ 
+}
+.intro h2{
+  font-family: "Space Grotesk", sans-serif;
+  /* background-color: yellow; */
+  color: aqua;
+  text-align: center;
+  padding: 5px;
+}
+.intro p{
+  padding: 5px;
+  font-family: "Oleo Script", sans-serif;
+  
+}
+.submit{
+  margin: 20px;
+  padding: 10px;
+  /* background-color: yellow; */
+  
+}
+.submit label{
+  font-style: italic;
+  /* background-color: beige; */
+  margin: 5px;
+  padding: 5px;
+  
+}
+.submit input{
+  /* background-color: orange; */
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+}
+.submit select{
+/* background-color: blue; */
+width: 60px;
+height: 20px;
+border-radius: 5px;
+}
