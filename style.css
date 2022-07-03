@@ -154,6 +154,15 @@ flex:1;
 .home-content button:hover{
   background-color: rgb(119, 25, 182);
 }
+
+.home-content i{
+  /* background-color: #00d4ff; */
+  position: absolute;
+  margin-left: 30px;
+  color: blue;
+
+
+}
 .about{
   background-color: rgba(234, 242, 243, 0.959);
   margin:80px;
