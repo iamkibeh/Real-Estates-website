@@ -14,7 +14,7 @@ Its objectives include:
 - Connect rural to urban through business
 - Promote free and fair trading among'st traders.
 
-## Setup/Installation Requirements
+## Setup/Installation Requirement
 * This is a great place
 * to list setup instructions
 * in a simple
@@ -22,9 +22,13 @@ Its objectives include:
 * format
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+
+This website works and responds well with medium and large sized screens. Users with small sized screens for example mobile phones with smaller widths may find it difficult using the application but I am working on making the website accessible to any device. I am also looking forward to incorporating a database that would handle user input data and manage it to produce expected results.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+- HTML
+I used HTML to to add a form field with a button for subscription
+- CSS
+I used CSS to style raw HTML I had. I also managed to make the website responsive using CSS.
 ## Contributing
 Feel free to create a pull request. It is highly welcomed and if you wish to share any information or concerns of what should be implimented in the project the floor is yours to open an issue on changes you would wish to be made.
 If you are new to the contribution world click on this [link](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/main/CONTRIBUTING.md) and follow the guide documented. Congratulations to joining contribution world. 
@@ -33,5 +37,7 @@ If you are new to the contribution world click on this [link](https://github.com
 Incase you encounter any bug or issue, feel free to reach us out at our support team [support](https deployed link).
 You can also contact us [+254716246708](tell:+254716246708). Alternatively, you can make a contribution to the project as mentioned earlier.
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+[MIT](https://opensource.org/licenses/MIT)
+
+
+Copyright (c) {2022} **{AgriPlus}**
