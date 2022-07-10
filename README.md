@@ -15,12 +15,25 @@ Its objectives include:
 - Promote free and fair trading among'st traders.
 
 ## Setup/Installation Requirement
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+
+1. On Github.com page navigate to the spoon-knife repository
+2. On the top right corner,click fork
+3. Right now you have a forked reository page but you  do not have files locally in your machine,therefore navigate to the forked repo
+4. click on the code section bellow
+5. copy the url to the repository. Ill prefer copying the HTTPS url by clicking on the copy icon on its right
+6. navigate to your terminal and change the directory to where you would want the forked repository to be stored as a subdirectory whose name is the name of the repository.
+7. run the command `git clone` and then paste the url besides it.
+8. press enter and your local clone will have been creted.
+
+```
+$git clone 'url'
+>cloning into `repository name`
+> remote: Counting objects:`number of files`
+> remote: Compressing objects: 100%
+> Unpacking objects: 100% ,done
+```
+9. you now have the repository in your local machine.
+> note that you do not need any dependencies to run this application. It works best on a code editor of your choice.
 ## Known Bugs
 
 This website works and responds well with medium and large sized screens. Users with small sized screens for example mobile phones with smaller widths may find it difficult using the application but I am working on making the website accessible to any device. I am also looking forward to incorporating a database that would handle user input data and manage it to produce expected results.
@@ -33,9 +46,13 @@ I used CSS to style raw HTML I had. I also managed to make the website responsiv
 Feel free to create a pull request. It is highly welcomed and if you wish to share any information or concerns of what should be implimented in the project the floor is yours to open an issue on changes you would wish to be made.
 If you are new to the contribution world click on this [link](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/main/CONTRIBUTING.md) and follow the guide documented. Congratulations to joining contribution world. 
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+
 Incase you encounter any bug or issue, feel free to reach us out at our support team [support](https deployed link).
 You can also contact us [+254716246708](tell:+254716246708). Alternatively, you can make a contribution to the project as mentioned earlier.
+### Questions?
+Twitter: [@IamKibeh](https://twitter.com/IamKibeh)
+Email: [kibetimmanuel0@gmail.com]()
+LinkedIn: [Kibet Immanuel]()
 ### License
 [MIT](https://opensource.org/licenses/MIT)
 
