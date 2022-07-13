@@ -5,6 +5,9 @@ This is a Real estate website which delivers services to interested clients wher
 
 Mishra Real Estates website aims to provide services to clients who require land leasing online. All they have to do is to install the application, get started and login their details and there they go. Depending on the house they require, they filter the searches they want.
 
+## Link to the website
+
+[click here]( https://iamkibeh.github.io/Real-Estates-website/)
 ## Setup/Installation Requirement
 
 1. On Github.com page navigate to the spoon-knife repository
@@ -37,7 +40,7 @@ Feel free to create a pull request. It is highly welcomed and if you wish to sha
 If you are new to the contribution world click on this [link](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/main/CONTRIBUTING.md) and follow the guide documented. Congratulations to joining contribution world. 
 ## Support and contact details
 
-Incase you encounter any bug or issue, feel free to reach us out at our support team [support](https deployed link).
+Incase you encounter any bug or issue, feel free to reach us out at our support team [support]( https://iamkibeh.github.io/Real-Estates-website/).
 You can also contact us [+254716246708](tell:+254716246708). Alternatively, you can make a contribution to the project as mentioned earlier.
 ### Questions?
 Twitter: [@IamKibeh](https://twitter.com/IamKibeh)
@@ -46,5 +49,12 @@ LinkedIn: [Kibet Immanuel]()
 ### License
 [MIT](https://opensource.org/licenses/MIT)
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[Go to top](#table-of-content)
 
 Copyright (c) {2022} **{Real-Estates-Website}**
