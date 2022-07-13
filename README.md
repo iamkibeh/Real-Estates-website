@@ -1,6 +1,16 @@
 # Real-Estates-website
 This is a Real estate website which delivers services to interested clients where one can access the website and book their services for luxury, 4th-july-2022.
 #### By **Kibet Immanuel Ng'eno**
+
+## Table of Content
+* [Description](#description)
+* [SetupInstallation Requirements](#setupinstallation-requirement)
+* [Known-bugs](#known-bugs)
+* [Technology Used](#technologies-used)
+* [Contributing](#contributing)
+* [Support and contact details](#support-and-contact-details)
+* [Licence](#license)
+
 ## Description
 
 Mishra Real Estates website aims to provide services to clients who require land leasing online. All they have to do is to install the application, get started and login their details and there they go. Depending on the house they require, they filter the searches they want.
@@ -24,7 +34,7 @@ $git clone 'url'
 4. you now have the repository in your local machine.
 > note that you do not need any dependencies to run this application. It works best on a code editor of your choice.
 
-
+[Go Back to top](#table-of-content)
 #### Requirements
 1. An access to the Internet
 2. Either a computer,phone,tablet or an Ipad
@@ -35,9 +45,13 @@ This website works and responds well with medium and large sized screens. Users 
 ## Technologies Used
 - HTML
 - CSS
+
+[Go Back to top](#table-of-content)
 ## Contributing
 Feel free to create a pull request. It is highly welcomed and if you wish to share any information or concerns of what should be implimented in the project the floor is yours to open an issue on changes you would wish to be made.
 If you are new to the contribution world click on this [link](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/main/CONTRIBUTING.md) and follow the guide documented. Congratulations to joining contribution world. 
+
+[Go Back to top](#table-of-content)
 ## Support and contact details
 
 Incase you encounter any bug or issue, feel free to reach us out at our support team [support]( https://iamkibeh.github.io/Real-Estates-website/).
